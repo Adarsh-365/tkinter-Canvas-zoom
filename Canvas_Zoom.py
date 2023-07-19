@@ -37,7 +37,7 @@ class Canvaszoom:
         
         # Limit the scale factor within a specific range
        
-        self.canvas.scale("all", 0, 0, self.scale_factor, self.scale_factor)
+        self.canvas.scale("all", event.x, event.y, self.scale_factor, self.scale_factor)
     
 
 root = tk.Tk()
