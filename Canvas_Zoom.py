@@ -41,19 +41,12 @@ class Canvaszoom:
     
 
 root = tk.Tk()
-
 canvas = tk.Canvas(root, width=400, height=400)
 canvas.pack()
-
 # Create some shapes on the canvas
 rect = canvas.create_rectangle(50, 50, 150, 150, fill='blue')
 circle = canvas.create_oval(200, 50, 300, 150, fill='red')
-
-
-
-
 Canvaszoom(canvas)
-
 root.mainloop()
 
 
